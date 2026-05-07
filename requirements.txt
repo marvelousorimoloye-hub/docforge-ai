@@ -1,0 +1,38 @@
+# Core Dependencies
+streamlit>=1.38.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+langsmith>=0.1.0
+
+# Embeddings & Vector DB
+fastembed>=0.4.0
+pinecone-client>=5.0.0
+pinecone-text>=0.9.0
+langchain-pinecone>=0.2.0
+
+# Document Parsing
+pymupdf>=1.24.0
+docling>=2.0.0
+pillow>=10.0.0
+
+# LLMs
+langchain-groq>=0.2.0
+langchain-google-genai>=2.0.0
+langchain-ollama>=0.2.0
+langchain-cohere>=0.3.0
+
+# Tools & Utilities
+tenacity>=9.0.0
+tavily-python>=0.5.0
+firecrawl-py>=1.0.0
+voyageai>=0.2.0
+sentence-transformers>=3.0.0
+
+# PDF Generation
+fpdf2>=2.7.0
+
+# Others
+python-dotenv>=1.0.0
+pydantic>=2.0.0
