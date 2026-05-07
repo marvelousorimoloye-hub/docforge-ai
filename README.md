@@ -58,7 +58,7 @@ LANGCHAIN_PROJECT=docforge-ai
 ```
 
 ## 📁 Project Structure
-text
+```
 docforge-ai/
 ├── app/
 │   ├── main.py
@@ -74,7 +74,7 @@ docforge-ai/
 │   ├── evaluator.py
 │   └── ...
 └── README.md
-
+```
 ## 🔧 Core Capabilities
 
 Smart Reranking: Uses Voyage AI as primary reranker with local Cross Encoder fallback for reliability
