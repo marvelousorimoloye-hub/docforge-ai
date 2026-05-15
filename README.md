@@ -26,9 +26,10 @@ An advanced AI system designed for contract review, compliance analysis, and leg
 - **Backend**: Python + LangGraph + LangChain
 - **Vector Database**: Pinecone (Hybrid Search)
 - **Embeddings**: BAAI/bge-small-en-v1.5
-- **LLMs**: Groq (Llama-3.3-70B), Ollama (local fallback)
+- **LLMs**: Groq (Llama-3.3-70B), Gemini, Ollama (local fallback)
 - **Document Parsing**: Docling + PyMuPDF
 - **Frontend**: Streamlit
+- **Backend**: FastApi
 - **Monitoring**: LangSmith
 
 ---
@@ -79,7 +80,7 @@ docforge-ai/
 
 Smart Reranking: Uses Voyage AI as primary reranker with local Cross Encoder fallback for reliability
 Production Resilience: Retry logic (Tenacity), Circuit Breaker pattern, graceful degradation
-Observability: Full tracing and evaluation with LangSmith
+Observability: Full tracing and evaluation with LangSmith.
 Legal Optimization: Hierarchical chunking + strong risk & citation focus
 
 ## screenshot 
@@ -90,14 +91,14 @@ Legal Optimization: Hierarchical chunking + strong risk & citation focus
 
 ## 📈 Roadmap
 
- Multi-agent system
- Pinecone Hybrid + Hierarchical Chunking
- Semantic Long-term Memory
- LangSmith Observability
- PDF report enhancements
- Advanced reranking (Voyage + Cross Encoder)
- LangSmith monitoring + evaluation
- GraphRAG (entity relationships)
+ Multi-agent system,
+ Pinecone Hybrid + Hierarchical Chunking,
+ Semantic Long-term Memory,
+ LangSmith Observability,
+ PDF report enhancements,
+ Advanced reranking (Voyage + Cross Encoder),
+ LangSmith monitoring + evaluation,
+ GraphRAG (entity relationships),
  User authentication & multi-user support
 
 
